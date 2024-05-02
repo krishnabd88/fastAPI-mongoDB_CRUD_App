@@ -1,1 +1,1 @@
-# fastAPI-mongodb_CURD
+# fastAPI-mongodb_CRUD
