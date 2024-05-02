@@ -10,6 +10,9 @@ from database import (
     remove_todo,
 )
 
+app = FastAPI()
+
+
 # an HTTP-specific exception class  to generate exception information
 
 @app.get("/")
