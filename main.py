@@ -51,3 +51,6 @@ async def delete_todo(title):
     if response:
         return "Successfully deleted todo"
     raise HTTPException(404, f"There is no todo with the title {title}")
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000)
